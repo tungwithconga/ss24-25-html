@@ -1,9 +1,5 @@
 let a = prompt("Hay nhap so nguyen duong a");
 let b = prompt("Hay nhap so nguyen duong b");
-
-if (isNaN(a) || isNaN(b) || a <= 0 || b <= 0) {
-    console.log("Vui lòng nhập vào hai số nguyên dương hợp lệ.");
-} else {
     let min = a < b ? a : b;
     let max = a > b ? a : b;
 
@@ -19,4 +15,4 @@ if (isNaN(a) || isNaN(b) || a <= 0 || b <= 0) {
     }
     console.log(`Tổng các số lẻ từ ${min} đến ${max}: ${sumLe}`);
     console.log(`Tổng các số chẵn từ ${min} đến ${max}: ${sumChan}`);
-}
+
